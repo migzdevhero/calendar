@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+.parent{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 3%;    
+}
+.image {
+    width: 450px;
+    height: 550px;
+    margin: 0;
+ 
+
+}
+.image img {
+    width: 450px;
+    height: 550px;;
+    margin:0;
+    object-fit: cover;
+    box-shadow: 0 0 10px 10px rgba(220, 220, 220, 0.356);
+    border-radius: 10px;   
+    
+}
+.wrapper {
+    background-color: white;
+    text-align: center;
+    width: 900px;
+    height: auto;
+    margin: 0;    
+    padding: 20px;
+    box-shadow: 0 0 10px 10px rgba(220, 220, 220, 0.356);
+    border-radius: 10px;
+
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    font-size: 13px;
+    background-color: rgba(220, 20, 60, 0.03);
+    
+}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    
+}
+table {
+    width: 100%;
+    table-layout: fixed;   
+    border-collapse: collapse;
+    text-align: center;      
+    padding: 10px;
+    margin: 0;      
+}
+h1 {
+    font-size: 1.25rem;    
+    margin-bottom: 10px;    
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: left;
+}
+.right {
+    float: right;
+    color: crimson;
+}
+thead {
+    color: white;
+    background-color:crimson;         
+    
+}
+.days {
+    height: 3rem;                
+}
+.dates {
+    height: 3rem;
+}
+th {
+    border-left: .5px solid white;
+}
+#red {
+    color: crimson;
+    font-weight: bolder;    
+}
+.select {
+    display: block;
+    max-width: 100%;   
+    margin: 40px auto 25px auto;
+    border-top: 1px solid crimson;
+    padding-top: 30px;
+}
+button {
+    background-color: crimson;
+    border: 0;
+    width: 150px;
+    height: 35px;
+    border-radius: 3px;
+    padding: 10px;    
+}
+button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
